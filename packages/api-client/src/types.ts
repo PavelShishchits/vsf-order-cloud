@@ -1,6 +1,11 @@
+import { SdkConfiguration, ApiRole, Category as OCCategory } from 'ordercloud-javascript-sdk';
 export type TODO = unknown;
 
-export type Setttings = TODO;
+export type Settings = {
+  client?: any;
+  api: SdkConfiguration;
+  scope: ApiRole[];
+};
 
 export type Endpoints = TODO;
 
@@ -10,7 +15,7 @@ export type Cart = TODO;
 
 export type CartItem = TODO;
 
-export type Category = TODO;
+export type Category = OCCategory;
 
 export type Coupon = TODO;
 

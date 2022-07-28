@@ -3,17 +3,21 @@ import {
   useUserFactory,
   UseUserFactoryParams
 } from '@vue-storefront/core';
-import type { User } from '@vue-storefront/__replace_me__-api';
+import type { User } from '@vue-storefront/ordercloud-api';
 import type {
   UseUserUpdateParams as UpdateParams,
   UseUserRegisterParams as RegisterParams
 } from '../types';
 
 const params: UseUserFactoryParams<User, UpdateParams, RegisterParams> = {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   load: async (context: Context) => {
-    console.log('Mocked: useUser.load');
-    return {};
+    // toDo load existing user
+    try {
+      await context.$ordercloud.api.initUser();
+    } catch (e) {
+      console.log(e);
+    }
+    return null;
   },
 
   // eslint-disable-next-line @typescript-eslint/no-unused-vars

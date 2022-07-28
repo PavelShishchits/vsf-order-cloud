@@ -11783,6 +11783,11 @@ optionator@^0.9.1:
     type-check "^0.4.0"
     word-wrap "^1.2.3"
 
+ordercloud-javascript-sdk@^4.10.1:
+  version "4.10.1"
+  resolved "https://registry.yarnpkg.com/ordercloud-javascript-sdk/-/ordercloud-javascript-sdk-4.10.1.tgz#196c9a3b87e99031774484ddd29cd6f7099db695"
+  integrity sha512-C2vjk0M3tOcIEzXCpeeUeBM9OdzJXWBvH8LOiNZx4R3SWPRqBXeTBhsCWOcK8p7vpbOxJ7AJNaQiLc9h1vuvPg==
+
 os-browserify@^0.3.0, os-browserify@~0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/os-browserify/-/os-browserify-0.3.0.tgz#854373c7f5c2315914fc9bfc6bd8238fdda1ec27"

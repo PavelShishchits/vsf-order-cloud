@@ -1,8 +1,14 @@
 module.exports = {
   integrations: {
-    __replace_me__: {
-      location: '@vue-storefront/__replace_me__-api/server',
-      configuration: {}
+    ordercloud: {
+      location: '@vue-storefront/ordercloud-api/server',
+      configuration: {
+        api: {
+          baseApiUrl: process.env.VSF_ORDERCLOUD_API_URL,
+          clientID: process.env.VSF_ORDERCLOUD_CLIENT_ID,
+        },
+        scope: process.env.VSF_ORDERCLOUD_ROLES
+      }
     }
   }
 };

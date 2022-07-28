@@ -50,11 +50,11 @@ export default {
       // @core-development-only-end
       useRawSource: {
         dev: [
-          '@vue-storefront/__replace_me__',
+          '@vue-storefront/ordercloud',
           '@vue-storefront/core'
         ],
         prod: [
-          '@vue-storefront/__replace_me__',
+          '@vue-storefront/ordercloud',
           '@vue-storefront/core'
         ]
       }
@@ -63,8 +63,8 @@ export default {
     ['@vue-storefront/nuxt-theme', {
       generate: {
         replace: {
-          apiClient: '@vue-storefront/__replace_me__-api',
-          composables: '@vue-storefront/__replace_me__'
+          apiClient: '@vue-storefront/ordercloud-api',
+          composables: '@vue-storefront/ordercloud'
         }
       }
     }],
@@ -72,13 +72,13 @@ export default {
     /* project-only-start
     ['@vue-storefront/nuxt-theme'],
     project-only-end */
-    ['@vue-storefront/__replace_me__/nuxt', {}]
+    ['@vue-storefront/ordercloud/nuxt', {}]
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     ['nuxt-i18n', {
-      baseUrl: process.env.BASE_URL || 'http://localhost:3000'
+      baseUrl: process.env.VSF_STORE_URL || 'http://localhost:3000'
     }],
     'cookie-universal-nuxt',
     'vue-scrollto/nuxt',
