@@ -1,14 +1,11 @@
-import { Me, ListPage } from 'ordercloud-javascript-sdk';
-import { Category } from '../types';
+import { Me } from 'ordercloud-javascript-sdk';
+import type { Category, ListPage } from '../types';
 import {
-  Context,
-  Logger
+  Context
 } from '@vue-storefront/core';
 
 export async function listCategories(context: Context, params: Record<string, unknown> = {}): Promise<ListPage<Category>> {
   try {
-    Logger.debug('listCategories:params', { params });
-    console.log('listCategories:params', params);
     return await Me.ListCategories(params);
   } catch (e) {
     console.log(e);

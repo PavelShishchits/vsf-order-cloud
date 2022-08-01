@@ -1,12 +1,25 @@
 import {
   ProductsSearchParams
 } from '@vue-storefront/core';
+import type { FilterProp, Searchable, Sortable } from '@vue-storefront/ordercloud-api';
 
 export type TODO = any;
 
 export type UseBillingAddParams = TODO;
 
-export type UseCategorySearchParams = TODO;
+export type UseCategorySearchParams = {
+  catalogID?: string;
+  depth?: number | 'all';
+  filters?: {
+    [key: string]: FilterProp
+  };
+  page?: number;
+  pageSize?: number;
+  productID?: number;
+  search?: string;
+  searchOn?: Searchable<'Me.ListCategories'>;
+  sortBy?: Sortable<'Me.ListCategories'>;
+};
 
 export type UseFacetSearchParams = TODO;
 

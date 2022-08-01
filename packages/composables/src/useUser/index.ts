@@ -12,11 +12,7 @@ import type {
 const params: UseUserFactoryParams<User, UpdateParams, RegisterParams> = {
   load: async (context: Context) => {
     // toDo load existing user
-    try {
-      await context.$ordercloud.api.initUser();
-    } catch (e) {
-      console.log(e);
-    }
+    await context.$ordercloud.api.initUser();
     return null;
   },
 
@@ -31,10 +27,17 @@ const params: UseUserFactoryParams<User, UpdateParams, RegisterParams> = {
     return {};
   },
 
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  register: async (context: Context, { email, password, firstName, lastName }) => {
+  register: async (context: Context, params) => {
     console.log('Mocked: useUser.register');
-    return {};
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    const { customQuery, ...userRegistrationParams } = params;
+    const { errors } = await context.$ordercloud.api.registerUser({
+      Username: userRegistrationParams.FirstName + ' ' + userRegistrationParams.LastName,
+      ...userRegistrationParams
+    });
+    if (errors?.length > 0) {
+      throw new Error(errors.join(','));
+    }
   },
 
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
