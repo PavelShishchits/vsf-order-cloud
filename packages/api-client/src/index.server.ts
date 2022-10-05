@@ -33,6 +33,7 @@ function init(settings: Settings): { config: Settings; client: Settings['client'
 
   const clientConfiguration = Configuration.Get();
 
+  // toDo (client) set axios instance from OC sdk
   return {
     config: settings,
     client: clientConfiguration

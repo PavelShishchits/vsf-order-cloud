@@ -1,7 +1,6 @@
 {
   "name": "@vue-storefront/ordercloud-api",
   "version": "0.0.1",
-  "private": true,
   "sideEffects": false,
   "main": "./lib/index.js",
   "exports": {
