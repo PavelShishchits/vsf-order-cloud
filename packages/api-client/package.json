@@ -1,5 +1,5 @@
 {
-  "name": "@vue-storefront/ordercloud-api",
+  "name": "@pavlendi/vsf-ordercloud-api",
   "version": "0.0.1",
   "sideEffects": false,
   "main": "./lib/index.js",
