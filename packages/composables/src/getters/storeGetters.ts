@@ -1,4 +1,4 @@
-import { Store } from '@vue-storefront/ordercloud-api';
+import { Store } from '@pavlendi/vsf-ordercloud-api';
 import { AgnosticStore, UseStoreGetters } from '@vue-storefront/core';
 import { UseStoreFilterParams } from '../types';
 

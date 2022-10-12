@@ -99,7 +99,7 @@ import {
   SfImage
 } from '@storefront-ui/vue';
 import { ref, watch, computed } from '@nuxtjs/composition-api';
-import { useWishlist, wishlistGetters, productGetters } from '@vue-storefront/ordercloud';
+import { useWishlist, wishlistGetters, productGetters } from '@pavlendi/vsf-ordercloud';
 import { addBasePath } from '@vue-storefront/core';
 
 export default {

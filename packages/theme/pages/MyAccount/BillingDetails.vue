@@ -77,7 +77,7 @@ import {
 } from '@storefront-ui/vue';
 import UserBillingAddress from '~/components/UserBillingAddress';
 import BillingAddressForm from '~/components/MyAccount/BillingAddressForm';
-import { useUserBilling, userBillingGetters } from '@vue-storefront/ordercloud';
+import { useUserBilling, userBillingGetters } from '@pavlendi/vsf-ordercloud';
 import { ref, computed } from '@nuxtjs/composition-api';
 import { onSSR } from '@vue-storefront/core';
 

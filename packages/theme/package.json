@@ -1,5 +1,5 @@
 {
-  "name": "@vue-storefront/ordercloud-theme",
+  "name": "@pavlendi/vsf-ordercloud-theme",
   "version": "0.0.1",
   "private": true,
   "engines": {
@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@storefront-ui/vue": "0.11.4",
-    "@vue-storefront/ordercloud": "0.0.1",
+    "@pavlendi/vsf-ordercloud": "0.0.3",
     "@vue-storefront/middleware": "~2.5.4",
     "@vue-storefront/nuxt": "~2.5.4",
     "@vue-storefront/nuxt-theme": "~2.5.4",

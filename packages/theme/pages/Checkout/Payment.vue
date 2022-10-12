@@ -110,7 +110,7 @@ import {
 } from '@storefront-ui/vue';
 import { onSSR } from '@vue-storefront/core';
 import { ref, computed, useRouter } from '@nuxtjs/composition-api';
-import { useMakeOrder, useCart, cartGetters, orderGetters } from '@vue-storefront/ordercloud';
+import { useMakeOrder, useCart, cartGetters, orderGetters } from '@pavlendi/vsf-ordercloud';
 import { addBasePath } from '@vue-storefront/core';
 
 export default {

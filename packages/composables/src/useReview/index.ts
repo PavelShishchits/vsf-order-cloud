@@ -3,7 +3,7 @@ import {
   useReviewFactory,
   UseReviewFactoryParams
 } from '@vue-storefront/core';
-import type { Review } from '@vue-storefront/ordercloud-api';
+import type { Review } from '@pavlendi/vsf-ordercloud-api';
 import type {
   UseReviewSearchParams as SearchParams,
   UseReviewAddParams as AddParams

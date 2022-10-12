@@ -1,6 +1,6 @@
 {
   "name": "@pavlendi/vsf-ordercloud",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "private": false,
   "sideEffects": false,
   "main": "./lib/index.js",
@@ -23,7 +23,7 @@
     "update:update": "ncu -u"
   },
   "dependencies": {
-    "@vue-storefront/ordercloud-api": "0.0.1",
+    "@pavlendi/vsf-ordercloud-api": "0.0.2",
     "@vue-storefront/core": "~2.5.4"
   },
   "devDependencies": {
@@ -34,7 +34,8 @@
     "@nuxtjs/composition-api": "^0.29.3"
   },
   "files": [
-    "lib/**/*"
+    "lib/**/*",
+    "nuxt/**/*"
   ],
   "publishConfig": {
     "access": "public"

@@ -1,6 +1,6 @@
 {
   "name": "@pavlendi/vsf-ordercloud-api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "sideEffects": false,
   "main": "./lib/index.js",
   "exports": {
@@ -30,7 +30,8 @@
     "concurrently": "^7.0.0"
   },
   "files": [
-    "lib/**/*"
+    "lib/**/*",
+    "server/**/*"
   ],
   "publishConfig": {
     "access": "public"

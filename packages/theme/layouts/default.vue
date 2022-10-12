@@ -33,7 +33,7 @@ import LazyHydrate from 'vue-lazy-hydration';
 import Notification from '~/components/Notification';
 import { onSSR } from '@vue-storefront/core';
 import { useRoute } from '@nuxtjs/composition-api';
-import { useCart, useStore, useUser, useWishlist } from '@vue-storefront/ordercloud';
+import { useCart, useStore, useUser, useWishlist } from '@pavlendi/vsf-ordercloud';
 
 export default {
   name: 'DefaultLayout',

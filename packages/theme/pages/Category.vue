@@ -211,7 +211,7 @@ import {
   SfProperty
 } from '@storefront-ui/vue';
 import { computed, ref } from '@nuxtjs/composition-api';
-import { useCart, useWishlist, productGetters, useFacet, facetGetters, wishlistGetters } from '@vue-storefront/ordercloud';
+import { useCart, useWishlist, productGetters, useFacet, facetGetters, wishlistGetters } from '@pavlendi/vsf-ordercloud';
 import { useUiHelpers, useUiState } from '~/composables';
 import { onSSR } from '@vue-storefront/core';
 import LazyHydrate from 'vue-lazy-hydration';

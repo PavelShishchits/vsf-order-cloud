@@ -1,5 +1,5 @@
 import { ForgotPasswordGetters } from '@vue-storefront/core';
-import type { PasswordResetResult } from '@vue-storefront/ordercloud-api';
+import type { PasswordResetResult } from '@pavlendi/vsf-ordercloud-api';
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 function getResetPasswordToken(result: PasswordResetResult): string {

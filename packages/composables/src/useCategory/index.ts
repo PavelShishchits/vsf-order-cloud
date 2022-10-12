@@ -3,7 +3,7 @@ import {
   useCategoryFactory,
   UseCategoryFactoryParams
 } from '@vue-storefront/core';
-import type { Category } from '@vue-storefront/ordercloud-api';
+import type { Category } from '@pavlendi/vsf-ordercloud-api';
 import type {
   UseCategorySearchParams as SearchParams
 } from '../types';

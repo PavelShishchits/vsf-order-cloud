@@ -198,7 +198,7 @@ import { ref, watch, reactive, computed } from '@nuxtjs/composition-api';
 import { SfModal, SfInput, SfButton, SfCheckbox, SfLoader, SfAlert, SfBar } from '@storefront-ui/vue';
 import { ValidationProvider, ValidationObserver, extend } from 'vee-validate';
 import { required, email } from 'vee-validate/dist/rules';
-import { useUser, useForgotPassword } from '@vue-storefront/ordercloud';
+import { useUser, useForgotPassword } from '@pavlendi/vsf-ordercloud';
 import { useUiState } from '~/composables';
 
 extend('email', {

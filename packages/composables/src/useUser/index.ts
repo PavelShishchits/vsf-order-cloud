@@ -3,7 +3,7 @@ import {
   useUserFactory,
   UseUserFactoryParams
 } from '@vue-storefront/core';
-import type { User } from '@vue-storefront/ordercloud-api';
+import type { User } from '@pavlendi/vsf-ordercloud-api';
 import type {
   UseUserUpdateParams as UpdateParams,
   UseUserRegisterParams as RegisterParams

@@ -42,7 +42,7 @@
 <script>
 import { SfBreadcrumbs, SfContentPages } from '@storefront-ui/vue';
 import { computed, onBeforeUnmount, useRoute, useRouter } from '@nuxtjs/composition-api';
-import { useUser } from '@vue-storefront/ordercloud';
+import { useUser } from '@pavlendi/vsf-ordercloud';
 import MyProfile from './MyAccount/MyProfile';
 import ShippingDetails from './MyAccount/ShippingDetails';
 import BillingDetails from './MyAccount/BillingDetails';

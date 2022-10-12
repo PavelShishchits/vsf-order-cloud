@@ -85,7 +85,7 @@ import {
   SfImage
 } from '@storefront-ui/vue';
 import { computed } from '@nuxtjs/composition-api';
-import { useWishlist, useUser, wishlistGetters } from '@vue-storefront/ordercloud';
+import { useWishlist, useUser, wishlistGetters } from '@pavlendi/vsf-ordercloud';
 import { useUiState } from '~/composables';
 import { addBasePath } from '@vue-storefront/core';
 

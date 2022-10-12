@@ -122,7 +122,7 @@ import {
   SfQuantitySelector
 } from '@storefront-ui/vue';
 import { computed } from '@nuxtjs/composition-api';
-import { useCart, cartGetters } from '@vue-storefront/ordercloud';
+import { useCart, cartGetters } from '@pavlendi/vsf-ordercloud';
 import { useUiState } from '~/composables';
 import debounce from 'lodash.debounce';
 import { addBasePath } from '@vue-storefront/core';

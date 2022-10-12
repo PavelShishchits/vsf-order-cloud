@@ -7,7 +7,7 @@ import type {
   Cart,
   CartItem,
   Product
-} from '@vue-storefront/ordercloud-api';
+} from '@pavlendi/vsf-ordercloud-api';
 
 const params: UseCartFactoryParams<Cart, CartItem, Product> = {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars

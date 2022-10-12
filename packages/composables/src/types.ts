@@ -1,7 +1,7 @@
 import {
   ProductsSearchParams
 } from '@vue-storefront/core';
-import type { FilterProp, Searchable, Sortable } from '@vue-storefront/ordercloud-api';
+import type { FilterProp, Searchable, Sortable } from '@pavlendi/vsf-ordercloud-api';
 
 export type TODO = any;
 

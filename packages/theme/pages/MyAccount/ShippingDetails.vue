@@ -77,7 +77,7 @@ import {
 } from '@storefront-ui/vue';
 import UserShippingAddress from '~/components/UserShippingAddress';
 import ShippingAddressForm from '~/components/MyAccount/ShippingAddressForm';
-import { useUserShipping, userShippingGetters } from '@vue-storefront/ordercloud';
+import { useUserShipping, userShippingGetters } from '@pavlendi/vsf-ordercloud';
 import { ref, computed } from '@nuxtjs/composition-api';
 import { onSSR } from '@vue-storefront/core';
 

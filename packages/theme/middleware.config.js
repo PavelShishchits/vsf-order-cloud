@@ -1,7 +1,7 @@
 module.exports = {
   integrations: {
     ordercloud: {
-      location: '@vue-storefront/ordercloud-api/server',
+      location: '@pavlendi/vsf-ordercloud-api/server',
       configuration: {
         api: {
           baseApiUrl: process.env.VSF_ORDERCLOUD_API_URL,

@@ -50,11 +50,11 @@ export default {
       // @core-development-only-end
       useRawSource: {
         dev: [
-          '@vue-storefront/ordercloud',
+          '@pavlendi/vsf-ordercloud',
           '@vue-storefront/core'
         ],
         prod: [
-          '@vue-storefront/ordercloud',
+          '@pavlendi/vsf-ordercloud',
           '@vue-storefront/core'
         ]
       }
@@ -63,8 +63,8 @@ export default {
     ['@vue-storefront/nuxt-theme', {
       generate: {
         replace: {
-          apiClient: '@vue-storefront/ordercloud-api',
-          composables: '@vue-storefront/ordercloud'
+          apiClient: '@pavlendi/vsf-ordercloud-api',
+          composables: '@pavlendi/vsf-ordercloud'
         }
       }
     }],
@@ -72,7 +72,7 @@ export default {
     /* project-only-start
     ['@vue-storefront/nuxt-theme'],
     project-only-end */
-    ['@vue-storefront/ordercloud/nuxt', {}]
+    ['@pavlendi/vsf-ordercloud/nuxt', {}]
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
