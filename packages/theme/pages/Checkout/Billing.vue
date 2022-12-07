@@ -198,7 +198,7 @@ import {
 } from '@storefront-ui/vue';
 import { ref, useRouter } from '@nuxtjs/composition-api';
 import { onSSR } from '@vue-storefront/core';
-import { useBilling } from '@pavlendi/vsf-ordercloud';
+import { useBilling } from '@brimit_psh/vsf-ordercloud';
 import { required, min, digits } from 'vee-validate/dist/rules';
 import { ValidationProvider, ValidationObserver, extend } from 'vee-validate';
 

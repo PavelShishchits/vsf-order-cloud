@@ -4,7 +4,7 @@ import {
   useWishlistFactory,
   UseWishlistFactoryParams
 } from '@vue-storefront/core';
-import type { Wishlist, WishlistItem, Product } from '@pavlendi/vsf-ordercloud-api';
+import type { Wishlist, WishlistItem, Product } from '@brimit_psh/vsf-ordercloud-api';
 
 const params: UseWishlistFactoryParams<Wishlist, WishlistItem, Product> = {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars

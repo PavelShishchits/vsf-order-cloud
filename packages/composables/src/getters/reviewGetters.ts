@@ -1,5 +1,5 @@
 import { ReviewGetters, AgnosticRateCount } from '@vue-storefront/core';
-import type { Review, ReviewItem } from '@pavlendi/vsf-ordercloud-api';
+import type { Review, ReviewItem } from '@brimit_psh/vsf-ordercloud-api';
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 function getItems(review: Review): ReviewItem[] {

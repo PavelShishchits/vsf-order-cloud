@@ -3,7 +3,7 @@ import type {
   UserBillingAddress as Address,
   UserBillingAddressItem as AddressItem,
   UserBillingAddressSearchCriteria
-} from '@pavlendi/vsf-ordercloud-api';
+} from '@brimit_psh/vsf-ordercloud-api';
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 function getAddresses(billing: Address, criteria?: UserBillingAddressSearchCriteria): AddressItem[] {

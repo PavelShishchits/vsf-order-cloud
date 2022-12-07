@@ -78,7 +78,7 @@
 <script>
 import { computed } from '@nuxtjs/composition-api';
 import { useUiHelpers, useUiState } from '~/composables';
-import { useFacet, facetGetters } from '@pavlendi/vsf-ordercloud';
+import { useFacet, facetGetters } from '@brimit_psh/vsf-ordercloud';
 import FiltersSidebar from '~/components/FiltersSidebar';
 import {
   SfButton,

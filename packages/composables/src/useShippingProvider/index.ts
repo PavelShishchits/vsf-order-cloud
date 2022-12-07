@@ -1,5 +1,5 @@
 import { useShippingProviderFactory, UseShippingProviderParams, Context } from '@vue-storefront/core';
-import type { ShippingProvider, ShippingMethod } from '@pavlendi/vsf-ordercloud-api';
+import type { ShippingProvider, ShippingMethod } from '@brimit_psh/vsf-ordercloud-api';
 
 const params: UseShippingProviderParams<ShippingProvider, ShippingMethod> = {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars

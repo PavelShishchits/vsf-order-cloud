@@ -4,7 +4,7 @@ const { exec } = require("child_process");
 const publishPackages = (pkgPath, labels) => {
   return new Promise((_res, _rej) => {
     try {
-      const command = `npm publish ${pkgPath} --access public --tag ${labels}`;
+      const command = `npm publish ${pkgPath}`;
 
       console.log(command)
 

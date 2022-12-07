@@ -1,6 +1,6 @@
 {
-  "name": "@pavlendi/vsf-ordercloud-api",
-  "version": "0.0.2",
+  "name": "@brimit_psh/vsf-ordercloud-api",
+  "version": "0.0.1",
   "sideEffects": false,
   "main": "./lib/index.js",
   "exports": {
@@ -30,10 +30,10 @@
     "concurrently": "^7.0.0"
   },
   "files": [
-    "lib/**/*",
-    "server/**/*"
+    "lib/**/*"
   ],
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   }
 }

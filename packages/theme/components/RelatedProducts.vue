@@ -34,7 +34,7 @@ import {
   SfSection,
   SfLoader
 } from '@storefront-ui/vue';
-import { productGetters, useWishlist, wishlistGetters, useCart } from '@pavlendi/vsf-ordercloud';
+import { productGetters, useWishlist, wishlistGetters, useCart } from '@brimit_psh/vsf-ordercloud';
 import { computed } from '@vue/composition-api';
 import { addBasePath } from '@vue-storefront/core';
 

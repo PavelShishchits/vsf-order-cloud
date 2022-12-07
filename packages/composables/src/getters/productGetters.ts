@@ -4,7 +4,7 @@ import {
   AgnosticPrice,
   ProductGetters
 } from '@vue-storefront/core';
-import type { Product, ProductFilter } from '@pavlendi/vsf-ordercloud-api';
+import type { Product, ProductFilter } from '@brimit_psh/vsf-ordercloud-api';
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 function getName(product: Product): string {

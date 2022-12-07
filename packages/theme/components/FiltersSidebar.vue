@@ -91,7 +91,7 @@ import {
 } from '@storefront-ui/vue';
 
 import { ref, computed, onMounted } from '@nuxtjs/composition-api';
-import { useFacet, facetGetters } from '@pavlendi/vsf-ordercloud';
+import { useFacet, facetGetters } from '@brimit_psh/vsf-ordercloud';
 import { useUiHelpers, useUiState } from '~/composables';
 import Vue from 'vue';
 

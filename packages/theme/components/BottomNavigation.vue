@@ -33,7 +33,7 @@
 <script>
 import { SfBottomNavigation, SfIcon, SfCircleIcon, SfBadge } from '@storefront-ui/vue';
 import { useUiState } from '~/composables';
-import { useUser, useCart, cartGetters } from '@pavlendi/vsf-ordercloud';
+import { useUser, useCart, cartGetters } from '@brimit_psh/vsf-ordercloud';
 import { computed, useRoute, useRouter } from '@nuxtjs/composition-api';
 
 export default {

@@ -31,8 +31,9 @@
 <script>
 import { SfMenuItem, SfModal } from '@storefront-ui/vue';
 import { useUiState } from '~/composables';
-import { useCategory } from '@pavlendi/vsf-ordercloud';
-import { onSSR } from '@vue-storefront/core';
+import { useCategory } from '@brimit_psh/vsf-ordercloud';
+// import { onSSR } from '@vue-storefront/core';
+import { onMounted } from '@nuxtjs/composition-api';
 
 export default {
   name: 'HeaderNavigation',
@@ -50,7 +51,7 @@ export default {
     const { isMobileMenuOpen, toggleMobileMenu } = useUiState();
     const { categories, search } = useCategory('menu-categories');
 
-    onSSR(async () => {
+    onMounted(async () => {
       await search({});
     });
 

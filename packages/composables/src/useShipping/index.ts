@@ -3,7 +3,7 @@ import {
   useShippingFactory,
   UseShippingParams
 } from '@vue-storefront/core';
-import type { ShippingAddress } from '@pavlendi/vsf-ordercloud-api';
+import type { ShippingAddress } from '@brimit_psh/vsf-ordercloud-api';
 import type {
   UseShippingAddParams as AddParams
 } from '../types';

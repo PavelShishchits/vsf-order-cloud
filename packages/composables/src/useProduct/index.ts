@@ -3,7 +3,7 @@ import {
   useProductFactory,
   UseProductFactoryParams
 } from '@vue-storefront/core';
-import type { Product } from '@pavlendi/vsf-ordercloud-api';
+import type { Product } from '@brimit_psh/vsf-ordercloud-api';
 import type {
   UseProductSearchParams as SearchParams
 } from '../types';

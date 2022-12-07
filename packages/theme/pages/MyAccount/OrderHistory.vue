@@ -95,7 +95,7 @@ import {
   SfLink
 } from '@storefront-ui/vue';
 import { computed, ref } from '@nuxtjs/composition-api';
-import { useUserOrder, orderGetters } from '@pavlendi/vsf-ordercloud';
+import { useUserOrder, orderGetters } from '@brimit_psh/vsf-ordercloud';
 import { AgnosticOrderStatus } from '@vue-storefront/core';
 import { onSSR } from '@vue-storefront/core';
 

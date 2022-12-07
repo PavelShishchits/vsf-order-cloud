@@ -1,4 +1,4 @@
-import { Store } from '@pavlendi/vsf-ordercloud-api';
+import { Store } from '@brimit_psh/vsf-ordercloud-api';
 import { Context, useStoreFactory } from '@vue-storefront/core';
 
 export const useStore = useStoreFactory<Store>({

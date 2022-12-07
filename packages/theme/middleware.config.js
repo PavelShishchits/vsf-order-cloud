@@ -1,7 +1,7 @@
 module.exports = {
   integrations: {
     ordercloud: {
-      location: '@pavlendi/vsf-ordercloud-api/server',
+      location: '@brimit_psh/vsf-ordercloud-api/server',
       configuration: {
         api: {
           baseApiUrl: process.env.VSF_ORDERCLOUD_API_URL,
